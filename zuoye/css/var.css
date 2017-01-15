@@ -1,0 +1,53 @@
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Helvetica;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #eeeeee;
+}
+.head {
+  width: 100%;
+  height: 40px;
+  background: #f9f9f7;
+}
+.BGbox {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.box {
+  width: 33.33%;
+  height: auto;
+  background: #fff;
+  float: left;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.box:nth-child(3n) {
+  border-right: 0;
+}
+.box .yuan {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 50%;
+  background: #ccc;
+}
+.box p {
+  width: 80%;
+  height: 15px;
+  background: #5e5e5e;
+  margin: 0 auto;
+  margin-top: 15%;
+}
